@@ -1,3 +1,16 @@
+## 1.1.0
+
+- Optimized URL handling and normalization
+- Added parallel feed verification for improved performance
+- Added `maxConcurrentVerifications` parameter to control concurrent connections
+- Added proper HTTP client management with timeout support
+- Improved feed detection with Atom feed support
+- Fixed URL normalization for protocol-relative URLs
+- Added content type verification for more accurate feed detection
+- Updated example with comprehensive usage patterns
+- Updated README with improved documentation
+- Added resource disposal with `dispose()` method
+
 ## 1.0.9
 
 - Null-safety
